@@ -19,6 +19,6 @@ platform :ios do
   desc "Setup project"
   lane :setup_xcodegen_proj do
     xcodegen
-    cocoapods(rep_update: true)
+    cocoapods(repo_update: true)
   end
 end
